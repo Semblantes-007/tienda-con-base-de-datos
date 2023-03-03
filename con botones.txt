@@ -1,0 +1,145 @@
+             <!--Productos-->
+                <div class="row py-5">
+                <div class="border-bottom">
+                </div>
+           </div>
+
+          <!--cards-->     
+           <div class="row">
+                <!--1-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/1.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Alcohol</h3>
+                            <p class="card-text">CLARE ofrece alcohol al 70% recomendado para el uso doméstico. </p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+
+
+                 <!--2-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/2.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Alcohol industrial </h3>
+                            <p class="card-text">CLARE ofrece alcohol al 96% recomendado para entornos industriales y sanitarios.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+
+                  <!--3-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/3.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Gel antiséptico</h3>
+                            <p class="card-text">CLARE ofrece gel antiséptico con aloe vera ideal para cuidar y desinfectar tus manos.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        </div>
+                    </div>
+
+                  <!--4-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/4.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Desengrasante industrial</h3>
+                            <p class="card-text">CLARE ofrece desengrasante industrial ideal para arrancar por completo la grasa pesada y garantizar la limpieza de talleres mecánicos, autolavados, gasolineras, cocinas industriales, camales, baños, etc.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+
+                  <!--5-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/5.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Jabón liquido</h3>
+                            <p class="card-text">CLARE ofrece Jabón líquido para manos en varias presentaciones.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+                
+                 <!--6-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/6.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Cloro</h3>
+                            <p class="card-text">CLARE ofrece cloro en varias presentaciones, ideal para desinfectar varias superficies y desmanchar ropa.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+                
+                 <!--7-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/7.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Detergente líquido para ropa</h3>
+                            <p class="card-text">CLARE ofrece detergente líquido ideal para cuidar tus prendas al momento del lavado.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        </div>
+                </div>
+                
+                 <!--8-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/8.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Shampoo de autos</h3>
+                            <p class="card-text">CLARE ofrece shampoo de autos formulado especialmente con alta tecnología y con el cual tu auto obtendrá brillo inmediato.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+
+                 <!--9-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/9.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Desinfectante</h3>
+                            <p class="card-text">CLARE ofrece desinfectante ideal para el uso doméstico e industrial.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a>  
+                        </div>
+                </div>
+
+                 <!--10-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/10.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Suavizante de ropa</h3>
+                            <p class="card-text">CLARE ofrece Suavizante de ropa ideal para cuidar tus prendas al momento del lavado.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a>   
+                        </div>
+                </div>
+
+                 <!--11-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/11.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Amonio cuaternario</h3>
+                            <p class="card-text">CLARE ofrece amonio cuaternario ideal para desinfectar superficies en entornos domésticos e industriales.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+                        </div>
+                </div>
+
+                 <!--12-->  
+                <div class="col-12 col-sm-6 col-lg-4 mt-3 mb-5 text-center">
+                    <img class="card-img-top" src="imagenes/imagenesFV/12.svg" alt="Alcohol">
+                        <div class="card-body">
+                            <h3 class="card-title">Brillo para llantas y tableros</h3>
+                            <p class="card-text">CLARE ofrece brillo para llantas y tableros formulado especialmente con alta tecnología y con el cual tu auto obtendrá brillo inmediato.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Detalles</a> 
+                        </div>
+                </div>
+           </div>
+
+    </section>
+
+</div>

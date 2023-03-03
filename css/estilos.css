@@ -1,0 +1,21 @@
+main > .container {
+    padding: 0;
+
+}
+
+.list-tittle{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--logo-color3);
+}
+
+media(min-width: 950px){
+
+    .list-tittle{
+        font-size: 35px;
+
+    }
+
+}
