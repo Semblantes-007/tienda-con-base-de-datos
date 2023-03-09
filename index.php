@@ -22,6 +22,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
     <!--bootstrap-->
 
     <link href="css/estilos.css" rel="stylesheet"> 
+    <link href="css/cardsize.css" rel="stylesheet">
 
 </head>
 <body>
@@ -61,8 +62,6 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
                           if(!file_exists($imagen)){
                             $imagen = "imagenes/imagenesFV/no-photo.jpg";
                           }
-                          
-                          
                           ?>
                           <!--PHP-->
 
@@ -74,22 +73,23 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
                          
 
                           <div class="card-body">
-                            <h5 class="card-tittle"><?php echo $row["nombre"]; ?></h5>
+                            <h3 class="card-tittle text-center"><?php echo $row["nombre"]; ?></h3>
 
 
-                            <p class="card-text">$ <?php echo $row["precio"]; ?></p>
+                            <p class="card-text text-center">$ <?php echo $row["precio"]; ?></p>
 
 
                           <!-- <p class="card-text">AQUI VA LA DESCRIPCION</p>-->
 
                           <!--Botones-->
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-evenly align-items-center">
 
                               <div class="btn-group">
-                                <a href="" class="btn btn-primary">Detalles</a>
+                                <a href="" class="btn btn-primary btn-lg">Detalles</a>
                               </div>
-                              <a href="" class="btn btn-success">Agregar</a>
+                              <a href="" class="btn btn-success btn-lg">Agregar</a>
                           <!--Botones-->
+
                           
                             </div>
                           </div>
@@ -100,7 +100,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 
                 </div>
               </div>  
-
+              </div>  
               </main>
 
 

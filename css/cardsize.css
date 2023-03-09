@@ -1,0 +1,43 @@
+.card-tittle {
+    font-size: 1.8rem;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+
+  }
+  .btn{
+    font-size: 1.8rem;
+}
+  
+
+  @media only screen and (max-width: 950px) {
+    .card-tittle {
+      font-size: 0.85rem;
+    }
+    .card-text {
+      font-size: 0.8rem;
+    }
+    .btn{
+        font-size: 0.85rem;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .card-tittle {
+        font-size: 1.5rem;
+      }
+      
+      .card-text {
+        font-size: 1.2rem;
+      }
+      .btn{
+        font-size: 1.5rem;
+    }
+    }
+      
+
+  
+  
+  
+  
