@@ -1,5 +1,6 @@
 <!--PHP-->
 <?php 
+require "config/config.php";
 require "config/database.php";
 $db = new Database();
 $con = $db->conectar();
@@ -46,6 +47,8 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 
             <!--cards-->     
               <!--Productos-->
+
+              
               <main>
               <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -66,7 +69,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
                           <!--PHP-->
 
                           <!--PHP-->
-                          <img src="<?php echo $imagen; ?>">
+                          <img src="<?php echo $imagen; ?>" class="card-img-top my-custom-class">
                           <!--PHP-->
 
 
@@ -85,9 +88,13 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
                             <div class="d-flex justify-content-evenly align-items-center">
 
                               <div class="btn-group">
-                                <a href="" class="btn btn-primary btn-lg">Detalles</a>
+                                
+
+
+                                <a href="details.php?id=<?php echo $row["id"]; ?>&token=<?php echo hash_hmac("sha1", $row["id"], KEY_TOKEN); ?>" class="btn mi-color1 btn-lg">Detalles</a>
+
                               </div>
-                              <a href="" class="btn btn-success btn-lg">Agregar</a>
+                              <a href="" class="btn mi-color2 btn-lg">Agregar</a>
                           <!--Botones-->
 
                           

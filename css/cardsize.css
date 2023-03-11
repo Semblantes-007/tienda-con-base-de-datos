@@ -1,39 +1,103 @@
+:root{
+  --theme-color:white;
+  --primary-color:#095898;
+  /*colores del logo*/
+  --logo-color1:#041d7b ;
+  --logo-color2:#adbb3a;
+  --logo-color3:#a37c54;
+  --logo-color4:#4c6090;
+  --logo-color5:#677c97;
+  --logo-color6:#213d3e;
+  --logo-color7:#283c74;
+  --logo-color8:#344c88;
+  /*colores del logo*/
+  --secondary-color:#adbb3a;
+  --text-color-inverse:white;
+  --text-color:black;
+  --navbar-shallow-color:#e5e5e5;
+  --menu-mobile-background-color:/*#095898*/ #041d7b;
+  
+
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: opacity;
+}
+
+
+
+
+.carousel-item {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center; /* centra verticalmente */
+}
+
+
+
+.mi-color1 {
+  background-color: var(--logo-color1);
+  color: white;
+}
+.mi-color2 {
+  background-color: var(--logo-color2);
+  color: white;
+}
+
+.card-img-top {
+  padding: 10px;
+}
 .card-tittle {
     font-size: 1.8rem;
   }
   
   .card-text {
-    font-size: 1.2rem;
-
+    font-size: 1.5rem;
+    
   }
   .btn{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    
 }
   
 
   @media only screen and (max-width: 950px) {
     .card-tittle {
       font-size: 0.85rem;
+      padding-right: 25px;
+      padding-left: 25px;
     }
     .card-text {
-      font-size: 0.8rem;
+      font-size: 0.83rem;
+      padding-right: 25px;
+      padding-left: 25px;
     }
     .btn{
-        font-size: 0.85rem;
+        font-size: 0.81rem;
     }
-  }
 
-  @media only screen and (max-width: 480px) {
+  }
+  @media only screen and (max-width: 760px) {
+
     .card-tittle {
+      
         font-size: 1.5rem;
+        padding-right: 30px;
+        padding-left: 30px;
       }
       
       .card-text {
-        font-size: 1.2rem;
+        
+        font-size: 1.3rem;
+        padding-right: 30px;
+        padding-left: 30px;
       }
       .btn{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
+
     }
       
 
